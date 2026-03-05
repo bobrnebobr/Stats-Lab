@@ -22,6 +22,7 @@ dependencies:
   - certifi=2026.01.04=py312hca03da5_0
   - cffi=1.16.0=py312h80987f9_1
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
+  - cloudpickle=3.1.2=py312hca03da5_0
   - comm=0.2.3=py312hca03da5_0
   - conda=24.11.3=py312hca03da5_0
   - conda-content-trust=0.2.0=py312hca03da5_1
@@ -98,7 +99,9 @@ dependencies:
   - libgfortran=15.2.0=h09d7db9_1
   - libgfortran5=15.2.0=hb654fa1_1
   - libglib=2.84.2=hdc2269c_0
+  - libhwloc=2.12.1=default_h2915d5d_1000
   - libiconv=1.16=h80987f9_3
+  - libllvm20=20.1.8=h1701f07_0
   - libltdl=2.6.0=haa24f5a_0
   - libmamba=1.5.11=haeffa04_1
   - libmambapy=1.5.11=py312h15e39b3_1
@@ -114,7 +117,8 @@ dependencies:
   - libwebp-base=1.6.0=h92b2d59_0
   - libxml2=2.13.9=h528a072_0
   - lightgbm=4.6.0=py312h313beb8_0
-  - llvm-openmp=20.1.8=he822017_0
+  - llvm-openmp=21.1.8=hfab7639_0
+  - llvmlite=0.46.0=py312hc8eb11b_0
   - lz4-c=1.9.4=h313beb8_1
   - matplotlib-base=3.10.8=py312haa222d5_0
   - menuinst=2.1.2=py312hca03da5_0
@@ -127,6 +131,7 @@ dependencies:
   - ncurses=6.4=h313beb8_0
   - nest-asyncio=1.6.0=py312hca03da5_0
   - notebook-shim=0.2.4=py312hca03da5_1
+  - numba=0.64.0=py312h7b550ab_0
   - numexpr=2.14.1=py312h5fbe615_0
   - numpy-base=2.4.2=py312h23175f9_0
   - openjpeg=2.5.2=h54b8e55_0
@@ -137,6 +142,7 @@ dependencies:
   - pandocfilters=1.5.1=py312hca03da5_0
   - pango=1.50.7=hf2328af_2
   - parso=0.8.5=py312hca03da5_0
+  - patsy=1.0.2=py312hca03da5_0
   - pcre2=10.42=hb066dcc_1
   - pexpect=4.9.0=py312hca03da5_1
   - pip=24.2=py312hca03da5_0
@@ -176,10 +182,14 @@ dependencies:
   - scikit-learn=1.8.0=py312h003a250_0
   - seaborn=0.13.2=py312hca03da5_3
   - setuptools=72.1.0=py312hca03da5_0
+  - shap=0.50.0=py312h3f644e9_0
   - six=1.17.0=py312hca03da5_0
+  - slicer=0.0.8=py312h1e82210_1
   - sniffio=1.3.1=py312hca03da5_0
   - sqlite=3.45.3=h80987f9_0
   - stack_data=0.6.3=py312hca03da5_0
+  - statsmodels=0.14.6=py312haa24f5a_0
+  - tbb=2022.3.0=h50665e7_0
   - terminado=0.18.1=py312hca03da5_1
   - threadpoolctl=3.5.0=py312h7eb115d_1
   - tinycss2=1.4.0=py312hca03da5_0
