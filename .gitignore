@@ -2,3 +2,4 @@
 .DS_STORE
 models/
 .venv/
+catboost_info/
